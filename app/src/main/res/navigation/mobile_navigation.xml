@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/audiences">
+
+    <fragment
+        android:id="@+id/audiences"
+        android:name="ru.pin120.luka.accountingsoftwaremobile.ui.audience.AudienceFragment"
+        android:label="@string/audiences"
+        tools:layout="@layout/fragment_computer" />
+
+    <fragment
+        android:id="@+id/computers"
+        android:name="ru.pin120.luka.accountingsoftwaremobile.ui.computer.ComputerFragment"
+        android:label="@string/computers"
+        tools:layout="@layout/fragment_audience" />
+
+    <fragment
+        android:id="@+id/softwares"
+        android:name="ru.pin120.luka.accountingsoftwaremobile.ui.software.SoftwareFragment"
+        android:label="@string/softwares"
+        tools:layout="@layout/fragment_software" />
+
+    <fragment
+        android:id="@+id/licences"
+        android:name="ru.pin120.luka.accountingsoftwaremobile.ui.licence.LicenceFragment"
+        android:label="@string/licences"
+        tools:layout="@layout/fragment_licence" />
+
+    <fragment
+        android:id="@+id/installedSoftwares"
+        android:name="ru.pin120.luka.accountingsoftwaremobile.ui.installedsoftware.InstalledSoftwareFragment"
+        android:label="@string/installedSoftwares"
+        tools:layout="@layout/fragment_installedsoftware" />
+
+    <fragment
+        android:id="@+id/employees"
+        android:name="ru.pin120.luka.accountingsoftwaremobile.ui.employee.EmployeeFragment"
+        android:label="@string/employees"
+        tools:layout="@layout/fragment_employee" />
+
+</navigation>

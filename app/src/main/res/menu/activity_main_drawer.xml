@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/audiences"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/computers"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/softwares"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
+            android:title="@string/softwares" />
+        <item
+            android:id="@+id/licences"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
+            android:title="@string/licences" />
+        <item
+            android:id="@+id/installedSoftwares"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
+            android:title="@string/installedSoftwares" />
+        <item
+            android:id="@+id/employees"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
+            android:title="@string/employees" />
+    </group>
+</menu>
